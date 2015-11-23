@@ -1,0 +1,99 @@
+#contentPhotos{
+
+}
+
+#slider-nav { display: none; }
+
+#box-pager{
+	float: right;
+	margin-top: 10px;
+}
+
+.bx-has-pager{
+	float: right;
+	height: 214px;
+	position: relative;
+	width: 0px;
+}
+
+.bx-wrapper img {
+    margin: 0 auto;
+}
+
+.boxSlid img{
+	text-align: center;
+	margin: auto;
+	max-width: 50% !important;
+}
+
+.bxslider img:hover{
+	opacity: 1 !important;
+}
+
+.arrowImg{
+	width:50px !important;
+}
+
+.box-navigation{
+	bottom: 77%;
+	position: relative;
+}
+
+.leftArrowDiv{
+	bottom: 60%;
+	right: 0px;
+}
+
+.rightArrowDiv{
+	right:0px
+}
+
+.bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto {
+	width: 10px;
+}
+
+.pagerList{
+	position: fixed;
+    list-style-type: none;
+    line-height: 18px;
+    margin-bottom: 4px;
+    top: 8px;
+    right: 8px;
+}
+
+.pagerList li{
+	color: rgb(102, 102, 102);
+	font-size: 22px;
+	margin: -2px;
+	padding: 0px;
+	padding-left: 42px;
+}
+
+a.active{
+	color: black;
+}
+
+.backToKKarta{
+	float: right;
+	cursor: pointer;
+	width: 52px;
+	color: rgb(102, 102, 102);;
+	list-style-type: none;
+	line-height: 14px;
+	position: fixed;
+	right: 8px;
+	bottom: 8px;
+}
+
+.backToKKarta:hover li{
+	color: #000;
+}
+
+.backToKKarta li{
+	font-size: 22px;
+	margin: -2px;
+	padding: 0px;
+	padding-left: 4px;
+	display: inline-block;
+	height: 10px;
+}

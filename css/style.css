@@ -1,0 +1,421 @@
+html{
+    width: 100%;
+    height: 100%;
+}
+body{
+	background-color: white;
+    width: 100%;
+    height:100%;
+}
+.stop-scrolling {
+    overflow: hidden;
+}
+@font-face{
+    font-family: Caslon3;
+    src: url(fonts/Caslon3LTStd-Roman.otf);
+}
+@font-face{
+    font-family: Caslon540;
+    src: url(fonts/Caslon540LTStd-Roman.otf);
+}
+#all-wrapper{
+
+}
+#introImageAndMeny{
+    height:calc(100vh - 75px);
+}
+.introImage{
+	height: 100%;
+	background-repeat:no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.introImageArrowWrap{
+	text-align: center;
+	height: 84vh;
+}
+
+.introImageArrow{
+	cursor: pointer;
+	position: absolute;
+	bottom: 1px;
+	font-size: 78px;
+	width: 60px;
+    right:50%;
+}
+
+header{
+	width: calc(100% - 15px);
+	height: 70px;
+ 	margin: auto;
+	background-color: #fff;
+	margin-bottom: 8px;
+}
+
+.borderBottomHeader{
+	border-bottom: 1px solid;
+	border-color: black;
+}
+
+.borderBottom{
+    width: calc(100% - 20px);
+    height: 100%;
+}
+
+#nav{
+	background-color: #fff;
+}
+#top-logo{
+	display: inline-block;
+}
+
+#top-logo img{
+	max-width:211px;
+	padding-top:10px;
+	/*padding-left:5px;*/
+}
+
+.left{
+	float: left;
+}
+
+.right{
+	float:right;
+}
+.mobileMenuWrap{
+    display: none;
+}
+.menuRight{
+	float: right;
+	line-height: 97px;
+}
+
+#firstMenuImg{
+	margin-left: 28px;
+}
+#brightnessButton{
+    height: 13px;
+    width: auto;
+    padding-bottom: 1px;
+}
+.menuItems {
+	font-family: Caslon3;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+	opacity: 0;
+}
+
+.menuItems li {
+	display: inline;
+
+	margin-left: 14px;
+}
+
+nav{
+	float:left;
+}
+
+nav a{
+	font-size: 14px;
+	text-decoration: none;
+	color: rgb(108, 108, 108);
+	text-transform: uppercase;
+}
+
+/*
+Make sure height is 58(or whatever) in mobile css
+*/
+.overlayNav{
+    position: fixed !important;
+    z-index: 50;
+    top: 0;
+    display: initial;
+    height: 70px;
+    overflow: hidden;
+    width: 100%;
+}
+.overlayNavHideAnimation{
+    position: fixed !important;
+    z-index: 50;
+    top: 0;
+    display: initial;
+    height: 0px !important;
+    overflow: hidden;
+    width: 100%;
+    transition: height 0.3s;
+}
+#socialMediaDiv{
+	float:right;
+}
+
+.menuImg{
+	margin-left: 0px !important;
+}
+
+.socialMediaLogo{
+	width: 14px;
+	margin-bottom: -2px;
+}
+
+#instagramLogoImage{
+	margin-right:6px;
+}
+
+#content{
+	width:calc(100% - 4px);
+	height:100%;
+	margin:auto;
+}
+#thumbNailsFlow{
+	 width: 100%;
+ 	 margin: auto;
+ 	 text-align:left;
+}
+
+.thumbnailDiv{
+	display: inline-block;
+	border:1px solid black;
+	margin-right:2%;
+	margin-bottom:2%;
+}
+
+.thumbnailDiv img{
+	min-width:100%;
+	min-height:100%;
+	max-width:100%;
+	max-height:100%;
+}
+
+ul {
+	padding:0;
+	margin:0;
+}
+
+.thumbnailRow{
+	display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+
+.thumbnailRow li{
+	display: table-cell;
+	min-height:100%;
+	max-height:100%;
+}
+
+.thumbnailRow a{
+	display: block;
+    text-align: center;
+    margin: 0 5px;
+    min-height:100%;
+    max-height:100%;
+}
+
+.thumbnailRow img{
+	min-width:100%;
+	min-height:100%;
+	max-width:100%;
+	max-height:100%;
+}
+
+footer{
+	height:200px;
+}
+
+/*
+ * Packery CSS
+ */
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+ul{
+	list-style:none;
+}
+
+/* force scrollbar
+html { overflow-y: scroll; }
+*/
+
+body { font-family: Caslon540; }
+
+/* ---- packery ---- */
+
+.grid-sizer {
+	width: 25%;
+}
+.w1{
+	width: 25%;
+}
+
+.w2 {
+	width: 50%;
+}
+
+.w3 {
+	width: 100%;
+	height:100vh;
+}
+
+.imageInAlbum li{
+	display: inline;
+	font-size: 20px;
+	margin: -2px;
+	padding: 0px;
+    color: #E3031C;
+}
+
+.imageInAlbum{
+	width: 23%;
+	position: relative;
+	left: 38%;
+	color: white;
+	list-style-type: none;
+}
+/* ---- img hover effect ----*/
+.imgDiv{
+    width: 100%;
+    height: 100%;
+    max-height: 100%;
+    max-width: 100%;
+    overflow:hidden;
+    padding: 8px;
+}
+.item {
+	display:  inline-block;
+    overflow: hidden;
+}
+.imgHoverFrame{
+    width:100%;
+    height:100%;
+    overflow:hidden;
+}
+.item img {
+    max-width: 100%;
+    display: block;
+    width: 100%;
+    height: 100%;
+    line-height: 0;
+    -webkit-transition:-webkit-transform 1s ease; /* Safari and Chrome */
+    -moz-transition:transform 1s ease; /* Firefox */
+    -o-transition:transform 1s ease; /* IE 9 */
+    -ms-transition:transform 1s ease; /* Opera */
+    transition:transform 1s ease;
+    overflow: hidden;
+}
+.w1:hover img {
+    -webkit-transform:scale(1.25); /* Safari and Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* IE 9 */
+    -o-transform:scale(1.25); /* Opera */
+    transform:scale(1.25);
+}
+
+.w2:hover img {
+    -webkit-transform:scale(1.25); /* Safari and Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* IE 9 */
+    -o-transform:scale(1.25); /* Opera */
+    transform:scale(1.25);
+}
+
+.item:hover .portfolioName {
+    z-index: 10;
+    background-color: rgba(58, 58, 58, 0.53);
+}
+.item .portfolioName p:hover {
+    z-index: 10;
+}
+.item .portfolioName {
+	z-index: -10;
+	position: absolute;
+	height: calc(100% + 1px);
+    width: calc(100% + 1px);
+	border: 8px solid;
+	border-color: #fff;
+	color: white;
+	text-align: center;
+}
+.w1 .portfolioName {
+    padding-top: 22%;
+}
+.w2 .portfolioName {
+    padding-top: 28%;
+}
+.wLong .portfolioName{
+    padding-top: 50%;
+}
+.item .portfolioName p {
+	font-size: 18px;
+	font-family: Caslon3;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+
+#boxSlid{
+	/*height: 0px;
+	overflow: hidden;
+	transition: height 2.3s;*/
+}
+
+.backToKKarta{
+	display: none;
+}
+
+@media screen and (max-width: 1000px) {
+	.grid-sizer {
+	    width: 33.33333%;
+	}
+	.item img{
+	    padding: 4px;
+	}
+
+	.w1{
+		width: 33.333333%;
+	}
+
+	.w2 { width: 66.666666%; }
+
+	nav{
+	  right: 18%;
+	}
+
+	.item .portfolioName {
+		border: 4px solid white;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.grid-sizer {
+	    width: 50%;
+	}
+	.item img{
+	    padding: 4px;
+	}
+
+	.w1{
+		width: 50%;
+	}
+
+	.w2 { width: 100%; }
+
+	nav{
+	  right: 18%;
+	}
+
+	.item .portfolioName {
+		border: 4px solid white;
+	}
+}
+
+#template{
+	display: none;
+}

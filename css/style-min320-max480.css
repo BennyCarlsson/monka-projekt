@@ -1,0 +1,123 @@
+/*standard mobile css, should target most mobile devices*/
+
+body{
+
+}
+
+.borderBottomHeader{
+    /*border: 0px solid;*/
+}
+
+header{
+    /*height: initial;*/
+    margin-bottom: 0px;
+    height: 58px;
+}
+
+/* introImage */
+.introImage {
+  height: 90vh;
+}
+
+.introImageArrowWrap{
+    display: none;
+}
+/* mobile menu */
+.left {
+    float:initial;
+}
+#introImageAndMeny{
+    height: initial;
+    min-height: 100vh;
+}
+nav {
+    float:initial;
+}
+
+#nav {
+    /*height: initial;*/
+}
+
+.menuRight {
+    float: initial;
+    line-height: initial;
+}
+
+.menuItems {
+    display:none;
+}
+
+.menuItems li {
+    display: block;
+    margin-left: 0px;
+    padding-top: 8px;
+    border-bottom: 1px solid lightgray;
+    padding-left: 2px;
+}
+
+nav a {
+  font-size: 20px;
+  text-decoration: none;
+  color: rgb(108, 108, 108);
+  text-transform: uppercase;
+}
+.overlayNav{
+    position: fixed !important;
+    z-index: 50;
+    top: 0;
+    display: initial;
+    /*height: initial !important;*/
+    height: initial;
+    overflow: hidden;
+    width: 100%;
+    transition: height 0.3s;
+}
+.overlayNavHideAnimation{
+    position: fixed !important;
+    z-index: 50;
+    top: 0;
+    display: initial;
+    height: 0px !important;
+    overflow: hidden;
+    width: 100%;
+    transition: height 0.3s;
+}
+.mobileMenuWrap{
+    height: 40px;
+    float: right;
+    margin-top: 17px;
+    display: block;
+}
+.mobileMenuWrap img{
+    height:44px;
+}
+
+.mobileMenuLine{
+    width: 100%;
+    height: 8px;
+    background-color: gray;
+    margin-top: 4px;
+    float: left;
+}
+
+#firstMenuImg {
+    margin-left: 0px;
+    /*text-align: center;*/
+}
+
+
+.socialMediaLogo {
+  width: 30px;
+  /* margin-bottom: -2px; */
+}
+
+.menuImg {
+  /* margin-left: 0px !important; */
+    /*text-align: center;*/
+}
+
+/*img hover*/
+
+.item img:hover {
+  opacity: 1;
+}
